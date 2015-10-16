@@ -1,0 +1,27 @@
+{
+  "name": "cah-creator",
+  "version": "1.0.0",
+  "description": "Node module for interacting with cahcreator.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjhorner/node-cah-creator.git"
+  },
+  "keywords": [
+    "cah",
+    "api",
+    "http"
+  ],
+  "author": "TJ Horner <me@tjhorner.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjhorner/node-cah-creator/issues"
+  },
+  "homepage": "https://github.com/tjhorner/node-cah-creator#readme",
+  "dependencies": {
+    "node-rest-client": "^1.5.1"
+  }
+}
