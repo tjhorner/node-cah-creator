@@ -7,15 +7,23 @@ function CahCreator(){
     return CAH_CREATOR_API_BASE + route;
   }
 
+  function tryParse(data){
+    try{
+      return JSON.parse(data);
+    }catch(e){
+      return { error: "Generic error!" };
+    }
+  }
+
   this.getDecks = function(callback){
     client.get(apiRoute("decks"), function(data, response){
-      callback(JSON.parse(data));
+      callback(tryParse(data));
     });
   };
 
   this.getDeck = function(deckId, callback){
     client.get(apiRoute("deck/" + deckId), function(data, response){
-      callback(JSON.parse(data));
+      callback(tryParse(data));
     });
   };
 
