@@ -1,6 +1,6 @@
 {
   "name": "cah-creator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node module for interacting with cahcreator.com",
   "main": "index.js",
   "scripts": {

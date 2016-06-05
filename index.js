@@ -9,7 +9,7 @@ function CahCreator(){
 
   function tryParse(data){
     try{
-      return JSON.parse(data);
+      return (typeof(data) === "string" ? JSON.parse(data) : data);
     }catch(e){
       return { error: "Generic error!" };
     }
