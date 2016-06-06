@@ -1,7 +1,7 @@
 function CahCreator(){
   var Client = require('node-rest-client').Client,
       client = new Client(),
-      CAH_CREATOR_API_BASE = "http://cahcreator.com/api/";
+      CAH_CREATOR_API_BASE = "https://cahcreator.com/api/";
 
   function apiRoute(route){
     return CAH_CREATOR_API_BASE + route;
