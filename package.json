@@ -1,7 +1,7 @@
 {
   "name": "cah-creator",
-  "version": "1.0.3",
-  "description": "Node module for interacting with cahcreator.com",
+  "version": "1.0.4",
+  "description": "Node module for interacting with neodeck.io",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
